@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+}
+h1 {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+th {
+  background: #333;
+  color: white;
+}
+tr:hover {
+  background: #f1f1f1;
+}
+.status-New {
+  color: green;
+  font-weight: bold;
+}
+.status-Used {
+  color: red;
+  font-weight: bold;
+}
